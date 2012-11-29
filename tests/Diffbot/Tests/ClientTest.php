@@ -1,6 +1,6 @@
 <?php
 
-namespace Diffbot\Test;
+namespace Diffbot\Tests;
 
 use \Diffbot\Client;
 

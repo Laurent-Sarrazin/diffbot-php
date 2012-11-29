@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="./test/bootstrap.php" colors="true">
+<phpunit bootstrap="./tests/bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="Diffbot-php Test Suite">
-            <directory suffix="Test.php">./test/Diffbot/</directory>
+            <directory suffix="Test.php">./tests/Diffbot/</directory>
         </testsuite>
     </testsuites>
 
     <php>
-        <!-- <server name="TEST_SERVER" value="http://localhost/diffbot-php/test/server.php" /> -->
+        <!-- <server name="TEST_SERVER" value="http://localhost/diffbot-php/tests/server.php" /> -->
     </php>
 
     <filter>
