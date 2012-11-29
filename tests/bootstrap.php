@@ -3,7 +3,7 @@
 spl_autoload_register(function($class)
 {
     $dirs = array(
-        __DIR__ . '/../lib/',
+        __DIR__ . '/../src/',
         __DIR__ . '/../tests/'
     );
     if (0 === strpos($class, 'Diffbot\\')) {

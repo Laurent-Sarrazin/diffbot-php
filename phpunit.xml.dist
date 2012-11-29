@@ -13,7 +13,7 @@
 
     <filter>
         <whitelist>
-            <directory suffix=".php">./lib/Diffbot/</directory>
+            <directory suffix=".php">./src/Diffbot/</directory>
         </whitelist>
     </filter>
 </phpunit>
