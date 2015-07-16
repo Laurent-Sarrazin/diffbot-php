@@ -1,1 +1,3 @@
-Under heavy development...
+Abandoned.
+
+Use https://github.com/Swader/diffbot-php-client
